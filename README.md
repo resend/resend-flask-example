@@ -1,6 +1,6 @@
-# Resend with Example
+# Resend with Flask
 
-This example shows how to use Resend with [Example](https://example.com).
+This example shows how to use Resend with [Flask](https://flask.palletsprojects.com/en/2.3.x/).
 
 ## Prerequisites
 
@@ -8,14 +8,16 @@ To get the most out of this guide, you’ll need to:
 
 * [Create an API key](https://resend.com/api-keys)
 * [Verify your domain](https://resend.com/domains)
-* Install `virtualenv` by running `pip install virtualenv`, if you don't have `virtualenv` already installed.
+* Install `virtualenv` by running `pip install virtualenv`
 
 ## Instructions
 
 1. Create and activate a new virtual env with:
 
-`$ virtualenv venv`
-`$ source venv/bin/activate`
+```sh
+virtualenv venv
+source venv/bin/activate
+```
 
 2. Install dependencies:
 
